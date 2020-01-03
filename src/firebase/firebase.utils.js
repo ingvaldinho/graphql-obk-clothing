@@ -16,7 +16,7 @@ const config = {
   firebase.initializeApp(config);
 
 
-  export const createUserprofileDocument = async(userAuth,additionalData)=>{
+  export const createUserProfileDocument = async(userAuth,additionalData)=>{
     if(!userAuth) return;
 
 //  DocumentReference is used to perform CRUD Operation
